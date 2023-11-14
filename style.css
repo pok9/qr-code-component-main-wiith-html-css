@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  background: #D5E1EF;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 20px;
+  background-color: white;
+  padding: 16px;
+  width: 320px;
+  height: 497px;
+  box-sizing: border-box;
+}
+.qrCodeImage {
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.title {
+  color: #1F314F;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  /* Heading */
+  font-family: 'Outfit', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  margin-bottom: 16px;
+}
+
+.description {
+  box-sizing: border-box;
+  width: 256px;
+  color: #7D889E;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.188px;
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  position: fixed;
+  bottom: 10%;
+  right: 0;
+  left: 0;
+}
